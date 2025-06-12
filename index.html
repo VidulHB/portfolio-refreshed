@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="Vidul Hansira Batawala" name="description">
+    <title>Vidul Batawala</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="img/pixel.ico" rel="shortcut icon">
+</head>
+<body id="body" class="bg-zinc-950">
+<div class="nav-container bg-blue-900/50">
+    <div class="navbar">
+        <div class="flex-1">
+            <h2 class="text-3xl font-semibold">Vidul</h2>
+        </div>
+        <div id="nav">
+            <div class="flex-none font-semibold nav-link btn active" onclick="bodyScroll('home')">
+                <a>Home</a>
+            </div>
+            <div class="flex-none font-semibold nav-link btn" onclick="bodyScroll('about')">
+                <a>About</a>
+            </div>
+            <div class="flex-none font-semibold nav-link btn" onclick="bodyScroll('skills')">
+                <a>Skills</a>
+            </div>
+            <div class="flex-none font-semibold nav-link btn" onclick="bodyScroll('projects')">
+                <a>Projects</a>
+            </div>
+        </div>
+        <div class="btn" id="nav-res">
+            <label class="swap swap-rotate" id="nav-btn">
+                <input type="checkbox" class="nav-swap-box" onchange="nav_res()"/>
+                <i class="fa-solid fa-bars swap-off fa-xl"></i>
+                <i class="fa-solid fa-xmark swap-on fa-xl"></i>
+            </label>
+        </div>
+    </div>
+    <div class="navbar" id="res-nav">
+        <div class="flex-none font-semibold nav-link btn active" onclick="bodyScroll('home')">
+            <a>Home</a>
+        </div>
+        <div class="flex-none font-semibold nav-link btn" onclick="bodyScroll('about')">
+            <a>About</a>
+        </div>
+        <div class="flex-none font-semibold nav-link btn" onclick="bodyScroll('skills')">
+            <a>Skills</a>
+        </div>
+        <div class="flex-none font-semibold nav-link btn" onclick="bodyScroll('projects')">
+            <a>Projects</a>
+        </div>
+    </div>
+</div>
+
+<div id="home" class="landing-container">
+    <div class="hero min-h-screen">
+        <div class="hero-content text-center" style="z-index: 1;">
+            <div class="max-w-md">
+                <img class="main-logo" src="img/pixel.jpeg"/>
+                <p class="py-10 text-xl">
+                    Hello! I am <span class="font-bold">Vidul Batawala</span>. I'm a full-stack developer with a strong focus on back-end development.
+                </p>
+                <button class="btn btn-soft bg-blue-900/50 hover:bg-blue-900/75 border-blue-900/90 border-3 rounded-4xl hover:shadow-blue-900/50 shadow-lg cursor-pointer" id="scroll" onclick="bodyScroll('about')"><i class="fa-solid fa-caret-down"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about" class="about">
+    <div class="flex w-full flex-col">
+        <div class="divider" style="margin: 0 25px;"><p class="text-2xl font-bold">About</p></div>
+    </div>
+    <div class="about-text text-lg">
+        <p>
+            I'm a 17-year-old self-taught full-stack developer from Sri Lanka. I first got into coding at the age of 12 during the COVID-19 lockdown by participating in the <span class="font-semibold">Bits20</span> Hosted by my school ICT Society. I ended up getting 5<sup>TH</sup> place in the competition which motivated me to learn more about coding. After Bits20 I got interested in Discord Bots, I got into coding Discord Bots with the help of a senior member of the ICT Society, <a class="font-semibold" href="https://github.com/pasindudushan" target="_blank">Pasindu Ranasinghe</a>. I consider him my mentor, he helped me understand how JS , Node.js and Databases works.
+        </p>
+        <p>
+            Eventually, thru trial and error, a lot of google searches, a lot of youtube videos, I learnt fully learnt HTML, CSS, JS and Nodejs. After that I participated in Bits22 and got 4<sup>TH</sup> place. Thru bits22 I made some new friends that share the same interest in coding as me. After Bits22, I started learning back-end web development with Node.js and Express.js. With the knowledge of back-end development, I joined a project some of my friends from Bits22 were working on, a WebApp called <a class="font-semibold" href="https://github.com/Techlore-remake/Techlore-Remake" target="_blank">Techlore</a>. I became the back-end developer of the project and made the webapp dynamic and interactive.
+        </p>
+        <p>
+            After Techlore, I started working on my own project and sharpened my UI skills. Now I am a full-stack developer with a strong focus on back-end development. I am currently a senior member of <a class="font-semibold" href="https://acicts.lk" target="_blank">ACICTS</a> and, I'm also a member in a open source community called <a class="font-semibold" href="https://openrockets.me" target="_blank">OpenRockects</a>. I'm currently working on some side-projects like this refreshed portfolio.
+        </p>
+    </div>
+</div>
+
+<div id="skills">
+    <div class="section-title flex w-full flex-col">
+        <div class="divider" style="margin: 0 25px;"><p class="text-2xl font-bold">Skills</p></div>
+    </div>
+    <div class="skills-container">
+        <div class="skill-group">
+            <h3 class="font-bold text-xl">Front-End</h3>
+            <div class="skill-list">
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">HTML</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">CSS</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Javascript</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">JQuery</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Embedded Javascript</div>
+            </div>
+        </div>
+        <div class="skill-group">
+            <h3 class="font-bold text-xl">Back-End</h3>
+            <div class="skill-list">
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Node.js</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Express.js</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Axios</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Mongoose</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">MongoDB</div>
+            </div>
+        </div>
+        <div class="skill-group">
+            <h3 class="font-bold text-xl">Hosting</h3>
+            <div class="skill-list">
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Google Cloud</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Ubuntu</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">Pterodactyl</div>
+                <div class="badge badge-soft badge-accent badge-lg font-semibold">NGINX</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="projects">
+<div class="section-title flex w-full flex-col">
+    <div class="divider" style="margin: 0 25px;"><p class="text-2xl font-bold">Projects</p></div>
+</div>
+<div class="projects-container">
+    <div class="relative overflow-hidden">
+        <div id="carouselTrack" class="projects flex carousel-track">
+        </div>
+
+        <button onclick="prevSlide()" class="carousel-action left-5 -translate-y-1/2">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button onclick="nextSlide()" class="carousel-action right-5 -translate-y-1/2">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="flex justify-center gap-2 mt-4" id="dotsContainer">
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="tools">
+    <div class="section-title flex w-full flex-col">
+        <div class="divider" style="margin: 0 25px;"><p class="text-2xl font-bold">Tools & Frameworks</p></div>
+    </div>
+    <div class="tools-container">
+        <i style="background-image: url('img/namecheap.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">NameCheap</div></i>
+        <i style="background-image: url('img/cloudflare.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Cloudflare</div></i>
+        <i style="background-image: url('img/googlecloud.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Google Cloud</div></i>
+        <i style="background-image: url('img/digitalocean.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Digital Ocean</div></i>
+        <i style="background-image: url('img/pterodactyl.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Pterodactyl</div></i>
+        <i style="background-image: url('img/letsencrypt.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Lets Encrypt</div></i>
+        <i style="background-image: url('img/nginx.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">NGINX</div></i>
+        <i style="background-image: url('img/github.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">GitHub</div></i>
+        <i style="background-image: url('img/githubcopilot.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">GitHub Copilot</div></i>
+        <i style="background-image: url('img/brevo.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Brevo</div></i>
+        <i style="background-image: url('img/intellijidea.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Intellij Idea Ultimate</div></i>
+        <i style="background-image: url('img/webstorm.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">WebStorm</div></i>
+        <i style="background-image: url('img/zenbrowser.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Zen Browser</div></i>
+        <i style="background-image: url('img/android.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Android</div></i>
+        <i style="background-image: url('img/ubuntu.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Ubuntu</div></i>
+        <i style="background-image: url('img/git.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Git</div></i>
+        <i style="background-image: url('img/dotenv.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">DotENV</div></i>
+        <i style="background-image: url('img/fontawesome.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Font Awesome</div></i>
+        <i style="background-image: url('img/nodedotjs.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Node.js</div></i>
+        <i style="background-image: url('img/express.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Express.js</div></i>
+        <i style="background-image: url('img/ejs.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">EJS</div></i>
+        <i style="background-image: url('img/jquery.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">JQuery</div></i>
+        <i style="background-image: url('img/mongodb.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">MongoDB</div></i>
+        <i style="background-image: url('img/mongoose.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Mongoose</div></i>
+        <i style="background-image: url('img/prettier.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Prettier</div></i>
+        <i style="background-image: url('img/tailwindcss.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">TailwindCSS</div></i>
+        <i style="background-image: url('img/bootstrap.svg');" class="tooltip tooltip-info"><div class="tooltip-content font-semibold">Bootstrap</div></i>
+    </div>
+</div>
+
+<footer class="bg-blue-900/50 footer footer-main sm:footer-horizontal text-base-content p-10">
+    <nav>
+        <h5 class="footer-title">Navigation</h5>
+        <a class="footer-link font-semibold" onclick="bodyScroll('home')">Home</a>
+        <a class="footer-link font-semibold" onclick="bodyScroll('about')">About</a>
+        <a class="footer-link font-semibold" onclick="bodyScroll('projects')">Projects</a>
+        <a class="footer-link font-semibold" onclick="bodyScroll('contact')">Contact</a>
+    </nav>
+    <nav class="footer-details">
+        <h5 class="footer-title">Details</h5>
+        <div class="footer-detail">
+            <h6 class="font-bold">Phone:</h6>
+            <p class="text-gray-400 font-semibold">+94 70 242 0707</p>
+        </div>
+        <div class="footer-detail">
+            <h6 class="font-bold">Email:</h6>
+            <p class="text-gray-400 font-semibold"><a href="mailto:vidul1114@gmail.com" target="_blank">vidul1114@gmail.com</a></p>
+        </div>
+    </nav>
+    <nav>
+        <h5 class="footer-title">Socials</h5>
+        <div class="grid grid-flow-col gap-4">
+            <a class="footer-social" href="https://github.com/vidulhb" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a class="footer-social" href="https://www.instagram.com/vidulhb/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a class="footer-social" href="https://wa.me/94702420707" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+            <a class="footer-social" href="https://www.linkedin.com/in/vidul-batawala-b2882a307/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </div>
+    </nav>
+</footer>
+<div class="bg-blue-900/50 footer-divider flex w-full flex-col">
+    <div class="divider"></div>
+</div>
+<footer class="footer sm:footer-horizontal bg-blue-900/50 footer-center text-base-content p-4">
+    <aside>
+        <p>© 2025 All Rights Reserved | Made With ❤️ & ☕ By Vidul</p>
+    </aside>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>

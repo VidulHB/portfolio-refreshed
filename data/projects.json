@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Portfolio",
+    "desc": "A personal portfolio website to showcase my projects and skills. Made using TailwindCSS, DaisyUI, JQuery, Love and Coffee.",
+    "icon": "fa-browser",
+    "url": "https://github.com/vidulhb/portfolio"
+  },
+  {
+    "title": "ACICTS Refreshed",
+    "desc": "A modern refresh of the ACICTS Official website ",
+    "icon": "fa-pager",
+    "url": "https://github.com/VidulHB/ACICTS-refreshed"
+  },
+  {
+    "title": "EJS Template",
+    "desc": "A custom template using Express.js Embedded JS, Node.js and MongoDB for web applications. With a pre-made admin panel included.",
+    "icon": "fa-screwdriver-wrench",
+    "url": "https://github.com/VidulHB/EJS-Template"
+  },
+  {
+    "title": "Cloud Storage",
+    "desc": "A webapp that uses multiple google accounts to store a large amount of files. Google don't sue me... ",
+    "icon": "fa-cloud-arrow-up",
+    "url": "https://github.com/VidulHB/cloud-storage"
+  },
+  {
+    "title": "ServerTool",
+    "desc": "ServerTool was an advanced all-in-one Discord Bot with features such as server management, level system, activity system, ect.",
+    "icon": "fa-robot",
+    "url": "https://github.com/VidulHB/Old-Projects/tree/main/ServerTool%2011.3.2"
+  },
+  {
+    "title": "ServerTool Music",
+    "desc": "ServerTool music was a Discord Bot to play music in Discord Servers. It was a part of my ServerTool project.",
+    "icon": "fa-music",
+    "url": "https://github.com/VidulHB/Old-Projects/tree/main/ServerTool%20Music%20V2"
+  },
+  {
+    "title": "ServerTool Web",
+    "desc": "ServerTool was the website for my ServerTool Discord bot project. It was made using a template to showcase the bot's features.",
+    "icon": "fa-browser",
+    "url": "https://github.com/VidulHB/Old-Projects/blob/main/ServerTool-Web"
+  },
+  {
+    "title": "Age In Days",
+    "desc": "An webapp to calculate your age in days. Made using HTML, CSS, and JavaScript for Bits22.",
+    "icon": "fa-input-numeric",
+    "url": "https://github.com/VidulHB/Old-Projects/tree/main/Age-In-Days"
+  },
+  {
+    "title": "Password Generator",
+    "desc": "An webapp to generate secure random passwords. Made using HTML, CSS, and JavaScript for Bits22.",
+    "icon": "fa-key",
+    "url": "https://github.com/VidulHB/Old-Projects/blob/main/Password-gen"
+  },
+  {
+    "title": "To-Do List",
+    "desc": "An webapp to create tasks and store them in your localstorage. Made using HTML, CSS, and JavaScript for Bits22.",
+    "icon": "fa-list-check",
+    "url": "https://github.com/VidulHB/Old-Projects/blob/main/To-Do-List"
+  },
+  {
+    "title": "Coin Toss",
+    "desc": "An webapp to toss a coin. Made using HTML, CSS, and JavaScript for Bits22.",
+    "icon": "fa-coin",
+    "url": "https://github.com/VidulHB/Old-Projects/blob/main/coin-toss"
+  }
+]

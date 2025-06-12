@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08aa59ce-aa2f-418d-a6f0-67b913e102fe" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/img/android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bootstrap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brevo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cloudflare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/digitalocean.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dotenv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ejs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/express.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fontawesome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/git.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/githubcopilot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/googlecloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/intellijidea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jquery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/letsencrypt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mongodb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mongoose.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/namecheap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nginx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nodedotjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prettier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pterodactyl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tailwindcss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ubuntu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webstorm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/zenbrowser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/acicts-refreshed.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/achievements.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/AIODDY'23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/AXCESS 20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CODEFEST 2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CODEFEST 21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CODEFEST'22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CODEFEST'23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CONEXION 20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/CONSTRUCTI CON 20.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ENVISAGE 17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ERA NOVUM 20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/EXELIXI 21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/EXPLOIT 20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/GCI19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/INFIGO 20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/INFOV 19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ISEC'22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/LUNA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NEXNOVA.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NOI 19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NOI 20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NSSC 19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Neurabyte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SLIOT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TRANSCEND.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acicts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bomlive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hypertxt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/live stream.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/poson.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pulz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/technicolorpng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/workshop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VidulHB&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VidulHB/ACICTS-refreshed.git&quot;,
+    &quot;accountId&quot;: &quot;04120116-ab65-4656-a145-49e50bfd74b9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2yJpdbhe9qoQF2wZ85XOs8tKMjn" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Code Projects\portfolio-refreshed\img" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08aa59ce-aa2f-418d-a6f0-67b913e102fe" name="Changes" comment="" />
+      <created>1749562618378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749562618378</updated>
+      <workItem from="1749562619537" duration="2903000" />
+      <workItem from="1749623061387" duration="7888000" />
+      <workItem from="1749695798759" duration="4021000" />
+      <workItem from="1749706541465" duration="7680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+</project>
